@@ -1,0 +1,34 @@
+.gallery-area-text{
+    color: #fff;
+    text-align: center;
+    margin: 150px 0 90px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.gallery-area-text h5{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.gallery-area-text h2{
+    font-size: 40px;
+}
+.gallery-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 150px;
+}
+.gallery-area-img img{
+    margin-left: 10px;
+    width: 280px;
+    height: 200px;
+    display: block;
+    transition: 0.9s;
+}
+.gallery-area-img:hover img{
+    transform: scale(1.2);
+} 
+.gallery-area-img{
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 10px;
+}

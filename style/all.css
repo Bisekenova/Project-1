@@ -1,0 +1,17 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./slider.css");
+@import url("./container.css");
+@import url("./service.css");
+@import url("./container-third.css");
+@import url("./gallery.css");
+@import url("./movie.css");
+@import url("./teams.css");
+@import url("./news.css");
+@import url("./production.css");
+@import url("./updates.css");
+@import url("./quote.css");
+@import url("./footer.css");
+body{
+    background-color: #111;
+}

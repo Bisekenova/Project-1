@@ -1,0 +1,9 @@
+.footer-dop{
+    border-top: 1px solid #212121;
+    margin: 0 100px;
+    font-size: 17px;
+    color: #ccc;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px 0;
+}

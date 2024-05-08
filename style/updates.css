@@ -1,0 +1,75 @@
+.section_updates{
+    text-align: center;
+}
+.updates_title h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 550;
+}
+.updates_title p{
+    color: #ccc;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.updates_title{
+    padding: 100px 0 0 0;
+    font-family: sans-serif;
+}
+.updates_put button{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000;
+    background-color: #fff;
+    padding: 13px 40px;
+    margin: 20px 0;
+}
+.updates_put input{
+    width: 400px;
+    height: 45px;
+    background-color: #000;
+    border: solid #fff;
+    border-width: 1px;
+    color: #fff;
+}
+.updates_put{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #212121;
+    content: "";
+    margin: 0 100px;
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 50px 0;
+}
+.final_guide{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.final_guide h4{
+    font-size: 22px; 
+    font-weight: 500;
+    padding: 20px 0; 
+}
+.final_guide p{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 0; 
+}
+.insta_img img{
+    margin: 10px;
+}
+@media(max-width:1200px){
+    .final{
+        margin: 0 40px;
+    }
+}
+@media(max-width:990px){
+    .final{
+        flex-flow: wrap;
+    }
+}

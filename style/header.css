@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 70px;
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+}
+.header__center a{
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.header__item img{
+    cursor: pointer;
+}
+.header_search img{
+    cursor: pointer;
+}
+.menu-logo{
+    display: none;
+}
+@media(max-width:995px){
+    .header__center{
+        display: none;
+    }
+    .header_search{
+        display: none;
+    }
+    .menu-logo{
+        display: flex;
+        border: none;
+    }
+}
